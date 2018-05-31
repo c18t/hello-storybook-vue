@@ -1,0 +1,23 @@
+{
+  "name": "hello-storybook-vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/c18t/hello-storybook-vue.git",
+  "author": "Uchi <u@chimata.org>",
+  "license": "MIT",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.4.6",
+    "@storybook/addon-links": "^3.4.6",
+    "@storybook/addon-notes": "^3.4.6",
+    "@storybook/addons": "^3.4.6",
+    "@storybook/vue": "^3.4.6",
+    "babel-core": "^6.26.3",
+    "vue": "^2.5.16",
+    "vue-loader": "14",
+    "vue-template-compiler": "^2.5.16",
+    "vuex": "^3.0.1"
+  }
+}
